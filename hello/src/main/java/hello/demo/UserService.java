@@ -14,12 +14,12 @@ public class UserService {
     public void insertTwo(){
         User UserA = new User();
         UserA.setName("First");
-        UserA.setEmail("first@gamil.com");
+        UserA.setPassword("firstcode");
         UserRepository.save(UserA);
 
         User UserB = new User();
         UserB.setName("Second");
-        UserB.setEmail("second@hotmail.com");
+        UserB.setPassword("secondpass");
         UserRepository.save(UserB);
 
     }
